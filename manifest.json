@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Anki Pro Adder",
+  "version": "1.1",
+  "permissions": ["contextMenus", "notifications"],
+  "host_permissions": [
+    "https://pixabay.com/api/*",
+    "http://localhost:8765/",
+    "https://api.dictionaryapi.dev/api/v2/entries/en/*",
+    "https://translate.googleapis.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+  
+}
